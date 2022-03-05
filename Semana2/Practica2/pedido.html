@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Pastelería | Pedido</title>
+        <link rel="stylesheet" href="./css/style.css" />
+        
+    </head>
+
+    <body>
+        <header>
+            <div class="header">
+                <img src="./img/logo.png" alt="" >
+                <h2 style="display: block;">Pastelería</h2>
+            </div>
+        </header>
+
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./sabores.html">Sabores</a></li>
+                    <li><a href="./adornos.html">Adornos</a></li>
+                    <li><a href="./pedido.html">Hacer Pedido</a></li>
+                    
+                </ul>
+            </nav>
+        </section>
+
+        <section>
+            <div>
+                <form >
+                    
+                    <div>
+                        <h3>Sabor</h3>
+                        <select >
+                          <option value="none" id="">Selecciona un Sabor</option>
+                            <option value="fcc">Chocolate</option>
+                            <option value="fcv">Fresa</option>
+                            <option value="fcf">Vainilla</option>
+                            <option value="vcf">Frutas</option>
+                          
+                            <option value="fcc">Fresa con Chocolate</option>
+                            <option value="fcv">Fresa con Vainilla</option>
+                            <option value="fcf">Fresa con Frutas</option>
+                            <option value="vcc">Vainilla con Chocolate</option>
+                            <option value="vcf">Vainilla con Frutas</option>
+                            <option value="ccf">Chocolate con Frutas </option>
+                          
+                        </select>
+                  
+              
+                    <h3>Decoración</h3>
+                        <select >
+                          <option value="none" id="">Tipo de Decoración</option>
+                            <option value="glasseado">Glasseado</option>
+                            <option value="merengue">Merengue</option>
+                            <option value="marmol">Cobertura tipo Marmol</option>
+                        
+                        </select>
+                   
+                   
+                    
+                        <h3>Número Telefónico</h3>
+                        <input type="text" id="telefono" name="telefono" placeholder="Teléfono" class="inputform"/>
+                   
+                    
+                        <h3>Corrreo Electrónico</h3>
+                    <input type="email" name="email" placeholder="Email" class="inputform"/>
+                
+                   
+                        <h3>Descripción del Pedido</h3>
+                    <textarea id="descripcion" name="descripcion" cols="80" rows="10" placeholder="Descripción del Pedido" class="inputform"></textarea>
+                    
+                    <div class="centrar">
+                    <input type="reset" value="Limpiar Datos">
+                     <input type="submit" value="Hacer Pedido" onclick="alert('Pedido Realizado');">
+                    </div>
+              </form>              
+              </div>    
+        </section>
+        <footer>
+            <p>Correo Electrónico: launchxpasteleria@launchx.com</p>
+            <p>Teléfono: 52 2222-2222</p>
+        </footer>
+    </body>
+</html>
